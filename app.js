@@ -48,9 +48,9 @@ const disableBoxes = () => {
 };
 
 const enableBoxes= () => {
-  for (let box of boxes) {
-    box.disabled= false;
-    box.innerText="";
+  for (let b of boxes) {
+    b.disabled= false;
+    b.innerText="";
   }
 };
 const showWinner = (winner) => {
